@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stíll.css">
+    <title>Lokaverkefni</title>
+</head>
+<body>
+    <table>
+        <caption>Info</caption>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Species</th>
+            <th scope="col">Sexuality</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Name">Zorro.exe (prefers being called Zorro)</td>
+            <td data-label="Gender">Male</td>
+            <td data-label="Species">Werevamphedgesnake (blending the exe in it too)</td>
+            <td data-label="Sexuality">Pansexual</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="Name">Max</td>
+            <td data-label="Gender">Male</td>
+            <td data-label="Species">Grey wolf</td>
+            <td data-label="Sexuality">Straight</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="Name">Shadow (no, not the hedgehog)</td>
+            <td data-label="Gender">Male</td>
+            <td data-label="Species">Black fox</td>
+            <td data-label="Sexuality">Asexual (basically, he has no feelings)</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="Name">Spike</td>
+            <td data-label="Gender">Male</td>
+            <td data-label="Species">Hedgehog</td>
+            <td data-label="Sexuality">Bisexual</td>
+          </tr>
+        </tbody>
+      </table>
+      <form>
+        <fieldset class="account-info">
+          <label>
+            Username
+            <input type="text" name="username">
+          </label>
+          <label>
+            Password
+            <input type="password" name="password">
+          </label>
+        </fieldset>
+        <fieldset class="account-action">
+          <input class="btn" type="submit" name="submit" value="Login">
+          <label>
+            <input type="checkbox" name="remember"> Stay signed in
+          </label>
+        </fieldset>
+      </form>      
+</body>
+</html>
